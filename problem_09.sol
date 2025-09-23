@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 contract FifthContract{
     //state variable
     uint num;
-    //a function set the number you gave
+    //this function set the number you gave
     function setNum(uint _num) public {
         num = _num;
     }
@@ -11,5 +11,6 @@ contract FifthContract{
     function getNum() public view returns (uint){
         return num;
     }
+
 
 }
