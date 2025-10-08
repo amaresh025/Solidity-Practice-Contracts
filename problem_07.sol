@@ -5,4 +5,5 @@ contract SumofNumbers{
     function getSum(uint a, uint b) public pure returns (uint){
         return a + b;
     }
+
 }
